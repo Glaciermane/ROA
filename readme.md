@@ -1,4 +1,4 @@
-ROA Botnet 
+ROA Source
 
 Get a VPS with CentOS 6 or 7 
 
@@ -7,5 +7,6 @@ Get a VPS with CentOS 6 or 7
 3. git clone https://github.com/Glaciermane/ROA.git
 4. cd ROA
 5. bash tools.sh
-
+   
+6. follow instructions
    
