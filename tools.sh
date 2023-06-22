@@ -1,6 +1,5 @@
 #!/bin/bash
-
-# Funktion zur Überprüfung des Exit-Status-Codes und zum Anzeigen einer Fehlermeldung
+# check errors
 check_status() {
     if [ $1 -ne 0 ]; then
         echo "Fehler: Ein Fehler ist aufgetreten. Abbruch."
@@ -8,20 +7,42 @@ check_status() {
     fi
 }
 
-# Aktualisiere das System
-echo "Systemaktualisierung..."
+# Update system
+echo "Systemupdate..."
 yum update -y
 check_status $?
 
-# Installiere Python 3
-echo "Python 3 Installation..."
-yum install -y python3
+# Install Golang
+echo "Golang installation..."
+yum install -y golang
 check_status $?
 
-# Installiere weitere Pakete oder Tools hier
-# Beispiel: Installiere Git
-# echo "Git Installation..."
-# yum install -y git
-# check_status $?
+# Install Python 3
+echo "Golang installation..."
+yum install -y golang
+check_status $?
 
-echo "Installation abgeschlossen."
+# Install bzip2
+echo "bzip2 installation..."
+yum install -y bzip2
+check_status $?
+
+# Install mariadb
+echo "mariadb installation..."
+yum install -y mariadb
+check_status $?
+
+# Install screen
+echo "screen installation..."
+yum install -y screen
+check_status $?
+
+# Installruby
+echo "screen installation..."
+yum install -y screen
+check_status $?
+
+
+
+
+echo "Installations complete."
