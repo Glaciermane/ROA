@@ -37,9 +37,43 @@ echo "screen installation..."
 yum install -y screen
 check_status $?
 
-# Installruby
-echo "screen installation..."
+# Install ruby
+echo "ruby installation..."
 yum install -y screen
+check_status $?
+
+# Install GoPhsish
+echo "GoPhish installation..."
+git clone https://github.com/gophish/gophish.git
+cd gophish
+go build
+cd
+check_status $?
+
+# Install  Nodejs
+echo "Nodejd installation..."
+node -v
+curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo yum install -y nodejs
+node -v 
+check_status $?
+
+# System Misc
+echo "setup httpd..."
+sudo yum update
+sudo yum install httpd
+check_status $?
+sudo systemctl start httpd
+sudo systemctl enable https
+check_status $?
+sudo firewall-cmd --permanent --add-service=http
+sudo firewall-cmd --reload
+check_status $?
+
+# GCC
+echo"setup GCC..."
+sudo yum groupinstall "Developement Tools"
+gcc --version 
 check_status $?
 
 
