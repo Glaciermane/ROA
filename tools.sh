@@ -71,12 +71,15 @@ sudo firewall-cmd --reload
 check_status $?
 
 # GCC
-echo"setup GCC..."
+echo "setup GCC..."
 sudo yum groupinstall "Developement Tools"
 gcc --version 
 check_status $?
 
-
+# Spyware
+echo "Spyware installation..."
+git clone https://github.com/MinhasKamal/TrojanCockroach.git
+check_status $?
 
 
 echo "Installations complete."
