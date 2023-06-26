@@ -51,7 +51,7 @@ cd
 check_status $?
 
 # Install  Nodejs
-echo "Nodejd installation..."
+echo "Nodejs installation..."
 node -v
 curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo yum install -y nodejs
@@ -77,12 +77,12 @@ gcc --version
 check_status $?
 
 # Spyware
-echo "Spyware installation..."
+echo "spyware installation..."
 git clone https://github.com/MinhasKamal/TrojanCockroach.git
 check_status $?
 
 #paping
-echo "Paping installation..."
+echo "paping installation..."
 sudo yum install epel-release
 sudo yum update
 sudo yum install paping
