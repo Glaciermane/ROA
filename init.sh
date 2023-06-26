@@ -115,6 +115,11 @@ cd beef
 bundle install
 ruby beef
 
+# init GIF
+echo "init GIF"
+curl -O https://raw.githubusercontent.com/gnachman/iTerm2/master/tests/imgcat
+chmod +x imgcat
+./imgcat <Pfad-zum-GIF>
 
 
 # loader#
