@@ -621,8 +621,8 @@ echo -e "$(tput setaf 5)
 ║ loading methods...                                                                    ║\n              
 ║ connecting to the net source...                                                       ║\n              
 ║                                                                                       ║\n              
-║ Status:$(tput sgr0)"echo -e "$(tput setaf 2)  waiting for actions...$(tput sgr0)"                                                       ║\n              
-echo -e "$(tput setaf 5)
+║ Status:$(tput setaf 2)  waiting for actions...$(tput sgr0)                                                       ║\n              
+$(tput setaf 5)
 ╚═══════════════════════════════════════════════════════════════════════════════════════╝
 $(tput sgr0)"
 sleep 0.03
