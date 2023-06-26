@@ -1,19 +1,19 @@
 # loader
 color b
-echo "	 OOOOOOOOOO             "
-echo "OOOOOOOOOOOO     OOO      "
-echo "OOO       OOO    O        " 
-echo "OO          OO            "
-echo "		OOO       OOOO      "
-echo "OOOOOOOOOOOO              "
-echo "		OOOOOO     OOOOOO   "   
-echo " OOO          OOOO        "
-echo " OOO   	OO         OOO  "   
-echo " OOO  OO	           OOO  "  
-echo "  OOO            OOO      "
-echo "   OOOO        OOOO       "
-echo "  	   OOOOOOOOOOOO     " 
-echo "      OOOOOOOO            "
+echo -e "\[95m	 OOOOOOOOOO             "
+echo -e "\[95m OOOOOOOOOOOO     OOO      "
+echo -e "\[95m OOO       OOO    O        " 
+echo -e "\[95m OO          OO            "
+echo -e "\[95m 		OOO       OOOO      "
+echo -e "\[95m OOOOOOOOOOOO              "
+echo -e "\[95m 		OOOOOO     OOOOOO   "   
+echo -e "\[95m  OOO          OOOO        "
+echo -e "\[95m  OOO   	OO         OOO  "   
+echo -e "\[95m  OOO  OO	           OOO  "  
+echo -e "\[95m   OOO            OOO      "
+echo -e "\[95m    OOOO        OOOO       "
+echo -e "\[95m   	   OOOOOOOOOOOO     " 
+echo -e "\[95m       OOOOOOOO            \e[0m"
 sleep 1
 clear
 
