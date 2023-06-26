@@ -81,5 +81,13 @@ echo "Spyware installation..."
 git clone https://github.com/MinhasKamal/TrojanCockroach.git
 check_status $?
 
+#paping
+echo "Paping installation..."
+sudo yum install epel-release
+sudo yum update
+sudo yum install paping
+paping google.com
+check_status $?
+
 
 echo "Installations complete."
