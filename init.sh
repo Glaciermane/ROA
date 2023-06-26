@@ -106,5 +106,9 @@ sudo tcpdump src host google.com
 sudo tcpdump port 80
 check_status $?
 
+# loader#
+cd
+chmod +x loader.sh
+./loader.sh
 
 echo "Installations complete."
