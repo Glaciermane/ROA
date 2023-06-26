@@ -106,6 +106,17 @@ sudo tcpdump src host google.com
 sudo tcpdump port 80
 check_status $?
 
+# BeeF 
+echo "beef installation..."
+sudo yum update
+sudo yum install -y ruby ruby-devel sqlite sqlite-devel gcc-c++ patch readline readline-devel zlib zlib-devel libffi-devel openssl-devel make
+git clone https://github.com/beefproject/beef.git
+cd beef
+bundle install
+ruby beef
+
+
+
 # loader#
 cd
 chmod +x loader.sh
