@@ -15,7 +15,7 @@ echo "   OOOO        OOOO       "
 echo "  	   OOOOOOOOOOOO     " 
 echo "      OOOOOOOO            "
 sleep 1
-cls
+clear
 
 echo " OOOOOOOOOO      	  	O   OOOOOOOOOOOOOOO            "
 echo "OOOOOOOOOOOO        OO	 	OOOOOOOOOOOOOOOOOO         "
@@ -32,7 +32,7 @@ echo "   OOOO        OOOO           OOOOOOOOOO       OOO   "
 echo "     OOOOOOOOOOOO      	    	OOOOOOOOOOOOOOOOOO     "
 echo "      OOOOOOOO	      OOOOOOOOOOOOOO                 "
 sleep 1
-cls
+clear
 
 
 echo " OOOOOOOOOO                  OOOOOOOOOOOOOOO       	       OOOOOOO		         "
@@ -50,7 +50,7 @@ echo "   OOOO        OOOO           OOOOOOOOOO       OOO     OO         OO	     
 echo "     OOOOOOOOOOOO              OOOOOOOOOOOOOOOOOO   	  OO         OOO 	       "
 echo "      OOOOOOOO                   OOOOOOOOOOOOOO      OO           OOO 	       "
 sleep 1
-cls
+clear
 
 
 echo " OOOOOOOOOO      	          OOOOOOOOOOOOOOO              OOOOOOO		OO	O    OOOOOOOOOO		         "
@@ -68,7 +68,7 @@ echo "   OOOO        OOOO           OOOOOOOOOO       OOO     OO         OO	  OO 
 echo "     OOOOOOOOOOOO      	    OOOOOOOOOOOOOOOOOO     OO         OOO 	  	 OOOOOOOOOOOO		           "
 echo "      OOOOOOOO		      OOOOOOOOOOOOOO      OO           OOO 	     OOOOOOOO		                     "
 sleep 1
-cls
+clear
 
 
 echo " OOOOOOOOOO               OOOOOOOOOOOOOOO              OOOOOOO             OOOOOOOOOO          OOOOOOOOOOOOO         "
