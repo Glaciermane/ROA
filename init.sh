@@ -97,5 +97,15 @@ sudo cp paping /usr/local/bin
 paping google.com -p 80
 check_status $?
 
+# tcpdump
+echo "tcpdump installation..."
+sudo tcpdump
+sudo tcpdump -i eth0
+sudo tcpdump dst host google.com
+sudo tcpdump src host google.com
+sudo tcpdump port 80
+check_status $?
+
+
 
 echo "Installations complete."
